@@ -1,0 +1,34 @@
+{
+  "IFEval": {
+    "sft": {
+      "prompt_level_strict_acc,none": 0.412
+    },
+    "dpo": {
+      "prompt_level_strict_acc,none": 0.438
+    }
+  },
+  "GSM8K": {
+    "sft": {
+      "exact_match,strict-match": 0.284
+    },
+    "dpo": {
+      "exact_match,strict-match": 0.312
+    }
+  },
+  "MMLU": {
+    "sft": {
+      "acc,none": 0.521
+    },
+    "dpo": {
+      "acc,none": 0.518
+    }
+  },
+  "AlpacaEval-lite": {
+    "sft": {
+      "win_rate": 0.5
+    },
+    "dpo": {
+      "win_rate": 0.583
+    }
+  }
+}
