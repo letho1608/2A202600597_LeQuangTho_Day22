@@ -33,6 +33,10 @@ hf_cache/
 .env.local
 *.token
 
+# AI Tools / Logs
+.ai-log/
+colab_snapshot.txt
+
 # Editor / OS
 .DS_Store
 .idea/
